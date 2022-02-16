@@ -26,7 +26,7 @@ public class BookSearchViewModel extends AndroidViewModel{
 
     public void searchVolumes(String keyword, String author) {
        // Dotenv dotenv = Dotenv.configure().directory("/assets").filename("env").load();
-        bookRepository.searchVolumes(keyword, author, "AIzaSyBD7QDht99PhXnl71z3g91bV2rgBClOjHs");
+        bookRepository.searchVolumes(keyword, author, "nothing");
     }
 
     public LiveData<VolumesResponse> getVolumesResponseLiveData() {
